@@ -1,0 +1,31 @@
+/* Albums.css */
+.album-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .album-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 500px;
+  }
+  
+  .album-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .album-card h2 {
+    font-size: 1.2em;
+    margin: 0;
+    color: #333;
+  }
+  
